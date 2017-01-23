@@ -1,8 +1,8 @@
 # IAP 2017
-# 15.S60 Software Tools for Operations Research
+# Software Tools for Business Analytics
 # Lecture 1: Introduction to R
 
-# Script file intro.R
+# Script file Part3_R_language.R
 # In this script file, we cover the basics of using R.
 
 ###################################################

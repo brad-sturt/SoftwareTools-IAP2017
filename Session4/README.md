@@ -17,22 +17,9 @@ Please follow the instructions [here](https://github.com/stevengj/julia-mit#inst
 Installing packages in Julia is easy with the Julia package manager. Just open Julia and enter the following command:
 
 ```jl
-julia> Pkg.add("Gurobi")
-```
-
-If you don't have an academic email or cannot get access for Gurobi for another reason, you should be able to follow along with the open source solver GLPK for much of the class. To install, simply do.
-
-```jl
-julia> Pkg.add("GLPKMathProgInterface")
-```
-
-To install JuMP, simply run
-
-```jl
 julia> Pkg.add("JuMP")
 ```
-
-from the Julia prompt. We will also need a linear programming (LP) and integer programming (IP) solver. We can use Cbc, an open-source offering:
+to install JuMP. We will also need a linear programming (LP) and integer programming (IP) solver. We can use Cbc, an open-source offering:
 
 ```jl
 julia> Pkg.add("Cbc")
